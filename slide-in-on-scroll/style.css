@@ -1,0 +1,10 @@
+.align-left.slide-in {
+    transform:translateX(-30%) scale(0.95);
+}
+.align-right.slide-in {
+    transform:translateX(30%) scale(0.95);
+}
+.slide-in.active {
+    opacity:1;
+    transform:translateX(0%) scale(1);
+}
